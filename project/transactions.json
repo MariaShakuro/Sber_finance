@@ -1,0 +1,9 @@
+{
+  "balance": 10000,
+"transactions": [
+{ "date": "2024-12-01", "amount": -500, "description": "Продукты" },
+{ "date": "2024-11-20", "amount": -2000, "description": "Аренда" },
+{ "date": "2024-11-15", "amount": -100, "description": "Кафе" },
+{ "date": "2024-10-30", "amount": 1500, "description": "Зарплата" }
+]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат с ассистентом</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Всплывающее окно выбора языка -->
+<div id="language-selector">
+    <h2>Выберите язык:</h2>
+    <button onclick="setLanguage('ru')">🇷🇺 Русский</button>
+    <button onclick="setLanguage('en')">🇬🇧 English</button>
+    <button onclick="setLanguage('fr')">🇫🇷 Français</button>
+    <button onclick="setLanguage('be')">🇧🇾 Беларуская</button>
+</div>
+
+<!-- Основной чат -->
+<h1 id="prompt"></h1>
+<div id="chat-window"></div>
+<input type="text" id="user-input" placeholder="Введите сообщение..." style="width: auto; min-width: 300px;">
+<button id="send-btn">Отправить</button>
+
+<script src="script-lang.js"></script>
+<script src="script-chat.js"></script>
+
+</body>
+</html>
